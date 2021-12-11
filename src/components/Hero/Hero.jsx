@@ -26,9 +26,9 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}
-            {' Jonathan '}
-            <span className="text-color-main">{name || 'Nkuli'}</span>
+            {title || "Hi, my name's"}
+            {''}
+            <span className="text-color-main">{name || ' Jonathan Nkuli'}</span>
             <br />
             {subtitle || "I'm a Front End Developer."}
           </h1>
